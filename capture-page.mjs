@@ -105,7 +105,7 @@ function defaultOutputPath(urlString, format) {
   const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
   const host = safeName(parsed.hostname || "page");
   const fileName = `${host}-${timestamp}.${format}`;
-  const capturesDir = path.resolve("C:\\Users\\robku\\OneDrive\\Desktop\\FULL screenshots");
+  const capturesDir = path.resolve("C:\\FULL screenshots");
   return path.join(capturesDir, fileName);
 }
 
