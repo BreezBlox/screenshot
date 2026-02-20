@@ -1,3 +1,5 @@
 node_modules/
 captures/
 package-lock.json
+*.png
+*.pdf
