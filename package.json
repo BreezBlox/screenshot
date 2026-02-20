@@ -1,0 +1,12 @@
+{
+  "name": "screenshot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Capture full-page screenshots or PDFs from a URL",
+  "scripts": {
+    "capture": "node capture-page.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "^1.52.0"
+  }
+}
